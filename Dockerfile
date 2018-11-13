@@ -1,4 +1,4 @@
-FROM kitpages/fizen-web
+FROM kitpages/fizen-web:php72
 MAINTAINER Kibatic <system@kibatic.com>
 
 RUN apt-get -qqq update && DEBIAN_FRONTEND=noninteractive apt-get install -qqq -y \
